@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /*  background-color: black; */
+
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    color: white;
+
+}
+
+.sidebar {
+    width: 360px;
+    background-color: #000;
+    border-radius: 1rem;
+    /* 16px:>1rem || 32px:>2rem */
+
+
+
+}
+
+body {
+    background-color: black;
+
+}
+/* header */
+.main_content {
+    flex: 1;
+    background-color: #121212;
+    overflow: auto;
+    border-radius: 1rem;
+}
+
+.arrow i {
+    margin: 17px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #121212;
+}
+
+.navbar {
+    background-color: #0a0909;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    margin-right: 2rem;
+    z-index: 10;
+
+}
+
+
+.download i {
+    color: white;
+    font-size: 1rem;
+    margin: 2px;
+    position: absolute;
+    top: 24px;
+    right: 100px;
+}
+
+
+.btn1 {
+    color: black;
+    padding: .25rem 1rem;
+    margin: 1.2rem .4rem;
+    border-radius: 1.5rem;
+    height: 2rem;
+    font-weight: 700;
+
+}
+
+.second_btn {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* footer content */
+
+.music_player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    height: 88px;
+    align-items: center;
+     justify-content:space-between; 
+
+    background-image: linear-gradient(90deg, #af2896, #509bf5);
+    cursor: pointer;
+}
+
+.song-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.ft {
+    margin-bottom: .4rem;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.signup-btn{
+    color: black;
+    /* padding: .5rem 1rem; */
+    margin: 1rem 1rem;
+    border-radius: 1.9rem;
+    height: 2.4rem;
+    width:7rem;
+    font-weight: 700;
+    border: none;
+
+    cursor: pointer;
+    position: absolute;
+
+}
+
+
+
+
+.space {
+    height: 25rem;
+    width: 100%
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    padding: .5rem .75rem;
+    height: 100px;
+    border-radius: 1rem;
+    background-color: #121212;
+    justify-content: center;
+
+
+}
+
+.foot {
+    color: gray;
+    display: flex;
+    gap: 1.4rem;
+    flex-wrap: wrap;
+    font-size: .7rem;
+    opacity: .7;
+    padding: 2rem 1.5rem;
+}
+
+/* music player */
+
+.footer-lw h3 {
+    display: flex;
+    color: azure;
+}
+
+.bttn {
+
+    color: white;
+    background-color: black;
+    padding: .25rem 1rem;
+    margin: .5rem 1.5rem;
+    border-radius: 1.5rem;
+    height: 2rem;
+    font-weight: 700;
+    z-index: 10;
+    border: none;
+}
+
+
+.option a {
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.1rem;
+    line-height:1rem ;
+
+}
+
+.option i {
+    font-size: 1.25rem;
+    line-height: 3.5rem;
+
+}
+
+.option {
+    display: flex;
+    gap: 1.5rem;
+    opacity: .5;
+
+}
+
+.option:hover {
+    opacity: 1;
+}
+
+.library {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem;
+    align-items: center;
+    height: 100%;
+}
+
+.library_icon img {
+    height: 1.25rem;
+    width: 1.25rem;
+    /* padding: .5rem; */
+    margin: .7rem .7rem 0 .5rem;
+}
+
+.library_icon a {
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.icon i {
+    margin: .7rem .7rem 0 .5rem;
+    margin-right: 1rem;
+}
+
+.whole {
+    border-radius: 1rem;
+    margin-top: 1.2rem;
+    background-color: #121212;
+    margin: .5rem;
+    padding: .5rem .75rem;
+}
+
+.box {
+    background-color: #232323;
+    height: 8rem;
+    width: 100%;
+    border-radius: .89rem;
+    margin: .5rem;
+    padding: .5rem .75rem;
+}
+
+.btn {
+    color: black;
+    padding: .25rem 1rem;
+    margin: 2rem 1.5rem;
+    border-radius: 1.5rem;
+    height: 2rem;
+    font-weight: 700;
+    border: none;
+}
+
+.box-p1 {
+    font-size: .9rem;
+    font-weight: 600;
+    margin-left: 1.5rem;
+    margin-top: 1.3rem;
+}
+
+.box-p2 {
+    font-size: .84rem;
+    font-weight: 600;
+    margin-left: 1.5rem;
+    margin-top: .5rem;
+}
+
+
+
+
+
+.pritam:hover {
+    background-color: #212121;
+   
+
+}
+
+.pritam-img {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 50%;
+    object-fit: fill;
+    width: 100%;
+
+}
+
+.pritam {
+    margin: 14px;
+}
+
+.artist {
+    padding: 12px;
+}
+
+.artist div {
+    opacity: .5;
+    padding: 5px;
+}
+
+.artist p {
+    font-weight: 700;
+}
+
+.middle-part {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1000px) {
+    .hide {
+        display: none;
+    }
+
+    #hide {
+        display: none;
+    }
+}
+
+.popular {
+    margin: 1.5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.single-card img {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+}
+
+.secondimg:hover {
+    background-color: #212121
+}
+
+
+.single-card {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.secondimg {
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+h2 {
+    margin-bottom: 12px;
+}
+
+.middle-part {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    width: 90%;
+    height: 60%;
+    border-top: 1px solid white;
+    opacity: .4;
+
+
+}
+
+.title {
+    font-weight: 600;
+}
+
+.playbtn {
+    
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    background-color: rgb(63, 194, 63);
+    
+    position: absolute;
+    right: 17px;
+    bottom: 10px;
+    /* Starting position */
+    opacity: 0;
+    transition: bottom 0.5s ease-out, opacity 0.5s ease-out;
+    /* Faster transition */
+}
+
+.single-card:hover .playbtn {
+    bottom: 46px;
+    /* Final position */
+    opacity: 1;
+    transition: bottom 0.3s cubic-bezier(0.07, 0.8, 0.16, 0.4), opacity 0.5s cubic-bezier(0.07, 0.8, 0.16, 0.4);
+    /* Faster transition */
+}
+/* music player */
+
+.music_player {
+    width: 100%; /* Adjust as needed */
+    height: 88px; /* Adjust as needed */
+    background-image: linear-gradient(90deg, #af2896, #509bf5);
+    cursor: pointer; /* Optional: background color for visibility */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%; /* Adjust as needed */
+    height: 100%;
+
+}
+.heart{
+    margin-left: .5rem;
+    margin-right: .9rem;
+}
+
+.play-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+    /* Optional: background color for visibility */
+}
+.end{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-solid{
+    gap: 1rem;
+    margin-left: .9rem;
+}
+
+
+.song-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between the buttons */
+}
+
+.song-btn i {
+    font-size: 24px; /* Adjust as needed */
+    color: #000; /* Optional: color for the icons */
+}
+
+
+
+.pic {
+    width: 50px;
+    height: 50px;
+    overflow: hidden; /* Ensures the image doesn't overflow the div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pic img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    max-height: 100%;
+    /* margin-left: .2rem; */
+    border-radius: .2rem;
+   
+}
+
+.title-img{
+    padding-left: 1rem;
+    font-size: 12px;
+}
+
+
+.secondimg {
+    position: relative;
+}
+
+.fa-play {
+    font-size: 1.4rem !important;
+    color: #000 !important;
+    text-align: center !important;
+
+}
+
+.fa-solid {
+    line-height: 2.2 !important;
+}
+
+
+/*  grid */
+
+
+.grid{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    top: 2rem;
+   cursor: pointer;
+
+}
+li{
+    margin-bottom: .9rem;
+}
+.comp{
+    margin-left: 2rem;
+    font-weight: 600;
+    margin-top: 4rem;
+}
+.cmp{
+    opacity: .7;
+    font-weight: 300;
+    font-size: .9rem;
+    margin-top: .8rem;
+}
+.hidden{
+    opacity: .8;
+   
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+.social{
+    margin-top: 1.9rem;
+    
+}
+.social i{
+    margin-left: 1rem;
+}
+
+
+.plan{
+    margin-right: 2rem;
+}
+.cmp:hover{
+    opacity: 10;
+    text-decoration: underline;
+} .mar{
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+}
+
+.fa-regular{
+    margin-left: 2.5rem;
+    margin-right: .3rem;
+    margin-top: 1.9rem;
+    font-size: .7rem;
+}
+.policy{
+    font-size: .9rem;
+    opacity: .8;
+    margin-right: 34rem;
+}
